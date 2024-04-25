@@ -1,0 +1,31 @@
+@media only screen and (min-width: 999px) {
+    .dashmix {
+      margin-left: 0;
+    }
+  
+    .dashmix,
+    .navbar {
+      display: inline-block;
+    }
+  
+    /* Mobile menu icon */
+    .menu-icon {
+      display: none;
+    }
+  
+    .navbar {
+      float: right;
+      max-height: none;
+    }
+  
+    .navbar .menu li {
+      list-style-type: none;
+      display: inline-block;
+      text-align: center;
+    }
+  
+    .navbar .menu li a {
+      display: block;
+      border-bottom: 0;
+    }
+  }
